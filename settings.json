@@ -32,6 +32,10 @@
     "files.insertFinalNewline": true,
 
     "editor.fontFamily":"Ricty Diminished",
+    // 統合ターミナルのフォント
+    // 設定しない場合は、editor.fontFamilyの設定が適応される
+    "terminal.integrated.fontFamily" : "Ricty Diminished",
+    "terminal.integrated.fontSize": 16,
 
     "python.linting.flake8Enabled":true,
     "python.linting.pylintEnabled":false,
